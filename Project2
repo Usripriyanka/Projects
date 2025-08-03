@@ -1,0 +1,26 @@
+# Real-Time Air Pollution Monitoring using Arduino UNO
+A low-cost, Arduino-based system that detects air pollution levels in real time using multiple gas sensors and displays data on an LCD screen.
+
+# Tech Stack & Components
+-  Arduino Uno
+-  LCD Display (16x2)
+-  Sensors:
+  - MQ-135 (air quality)
+  - MQ-3 (alcohol)
+  - MQ-4 (methane/CH4)
+  - MQ-7 (carbon monoxide)
+-  Breadboard, jumpers, resistors, USB power
+
+# Objective
+To build a **portable pollution monitor** that:
+- Measures air quality with 4 different sensors
+- Displays real-time readings on an LCD
+- Can be used for indoor, outdoor, or vehicle air analysis
+  
+# Features
+- Real-time detection of:
+  - CO, CH₄, alcohol, and air contaminants
+- Displays ppm values for each gas
+- Threshold-based color-coded alerts (if implemented)
+- Low-cost, beginner-friendly circuit
+- Expandable with GSM or Wi-Fi module (future scope)
